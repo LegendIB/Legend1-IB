@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accounting with IT</title>
+
+  <style>
+
+ body{
+      font-family: Tahoma, sans-serif;
+    }
+    header {
+      background-color:orange;
+      color:white;padding: 20px;text-align: center;
+    }
+    nav {
+      background-color:blue;padding: 10px;text-align: center;
+    }
+    nav a {
+      margin: 5px;text-decoration: none;color:white;
+    }
+    section {
+      padding: 20px;
+    }
+  </style>
+  <script>
+    function showPage(pageId) {
+      var pages = document.getElementsByClassName('page');
+      for (var i = 0; i < pages.length; i++) {
+        pages[i].style.display = 'none';
+      }
+      document.getElementById(pageId).style.display = 'block';
+    }
+  </script>
+</head>
+<body bgcolor="green"text="white">
+  <header>
+    <marquee behavior="scroll"directio ="right"><h1>Welcome to the Accounting with Information Technology website</h1></marquee>
+  </header>
+  
+  <nav>
+    <a href="#" onclick="showPage('home')">Home</a>
+    <a href="#" onclick="showPage('about')">About</a>
+    <a href="#" onclick="showPage('services')">Services</a>
+    <a href="#" onclick="showPage('contact')">Contact</a>
+  </nav>
+  
+  <section id="home" class="page">
+    <h2>Home</h2>
+    <p>Welcome to our website. we offer affordable servises in order to meet your expectatios..</p>
+  </section>
+  
+  <section id="about" class="page">
+    <h2>About Us</h2>
+    <p>Exchange information more about our business. we are for serving our customer.</p>
+  </section>
+  
+  <section id="services" class="page">
+    <h2>Services</h2>
+    <ul>
+      <li>Financial System Implementation</li>
+      <li>IT Infrastructure Assessment</li>
+      <li>Data Migration and Intergration</li>
+      <li>Automation and Workflow implementation</li>
+      <li>Cloud-Based Accounting Solutions</li> 
+      <li>System Integration and Customization</li>
+      <li>IT Training and Support</li>
+    </ul>
+  </section>
+  
+  <section id="contact"class="page">
+    <h2>Contact Us</h2>
+  <p>Contact with us to exchange the important business requirements related to accounting with information technology to solve the challenges 
+    of customers when they make transactions while accessing services. we work for your thoughts</p>
+  <p>phone:+225 712 175 192</p>
+  <p>Email:isackbenezeth818@.com</p>
+ </section>
+  
+  <script>
+    showPage('home'); // Show the home page by default
+  </script>
+ <main>
+    
+    <video controls>
+      <source src="ACC&IT.mp4" type="video/mp4">
+    </video><br>
+            <h>Applicability of Accounting information system in business</h><br>
+    <img src="grp9.jpg"alt="Accounting with information Technology"width="640"height="400"><br>
+    <audio controls>
+      <source src="IT.mp3" type="audio/mpeg">
+    </audi
+  </main>
+
+  <footer>
+    <p>Copyrigt © 2023 Accounting with Information Technology.All rights reserved</p>
+  </footer>
+</body>
+</html>
